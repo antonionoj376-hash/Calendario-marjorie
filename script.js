@@ -5,7 +5,7 @@
 
 // CONFIGURACIÓN GENERAL
 
-const MODO_PREVIEW = true;
+const MODO_PREVIEW = false;
 const YEAR = 2026;
 const STORAGE_KEY = "calendarioMarjorie2026";
 const TIME_ZONE = "America/Guatemala";
