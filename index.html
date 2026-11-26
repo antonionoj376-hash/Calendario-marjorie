@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#3a0c20">
+
+  <meta
+    name="description"
+    content="Un calendario de Adviento especial, lleno de recuerdos y sorpresas navideñas."
+  >
+
+  <title>Una Navidad Especial para Marjorie ♡</title>
+
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- TIPOGRAFÍAS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+</head>
+
+<body>
+
+  <!-- =====================================
+       PORTADA DE BIENVENIDA
+  ====================================== -->
+
+  <section class="welcome" id="welcome">
+
+    <div class="welcome-content">
+
+      <p class="eyebrow">
+        ✦ UNA NAVIDAD ESPECIAL ✦
+      </p>
+
+      <h1>
+        Una Navidad Especial
+      </h1>
+
+      <h2>
+        Para Marjorie Samantha
+      </h2>
+
+      <p class="welcome-subtitle">
+        24 días llenos de pequeños recuerdos para ti ♡
+      </p>
+
+
+      <!-- SOBRE DECORATIVO -->
+
+      <div class="envelope">
+
+        <div class="envelope-heart">
+          ♡
+        </div>
+
+      </div>
+
+
+      <!-- MENSAJE DE BIENVENIDA -->
+
+      <p class="welcome-message">
+        He preparado algo especial para ti.
+        Cada día encontrarás una pequeña sorpresa,
+        hasta llegar a una noche muy especial.
+        Espero que cada puerta te regale una sonrisa.
+      </p>
+
+
+      <!-- BOTÓN PARA ABRIR EL REGALO -->
+
+      <button
+        id="openGift"
+        type="button"
+      >
+        Abrir mi regalo ♡
+      </button>
+
+
+      <p class="welcome-footer">
+        Con cariño, para ti ✨
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================================
+       CALENDARIO DE ADVIENTO
+  ====================================== -->
+
+  <section
+    class="calendar hidden"
+    id="calendar"
+  >
+
+    <header class="calendar-header">
+
+      <p class="eyebrow">
+        DICIEMBRE 2026
+      </p>
+
+      <h1>
+        Un diciembre especial
+      </h1>
+
+      <p>
+        Cada puerta guarda un pequeño detalle para ti.
+      </p>
+
+      <div class="calendar-decoration">
+        ✦ ❄ ♡ ❄ ✦
+      </div>
+
+    </header>
+
+
+    <!-- CONTENEDOR DE LAS 25 PUERTAS -->
+
+    <div
+      class="doors"
+      id="doors"
+      aria-label="Calendario de Adviento"
+    ></div>
+
+
+    <!-- PIE DEL CALENDARIO -->
+
+    <footer class="calendar-footer">
+
+      <p>
+        Que cada día tenga un motivo para sonreír ♡
+      </p>
+
+
+      <!-- BOTÓN DE MÚSICA -->
+
+      <button
+        class="music-toggle"
+        id="musicToggle"
+        type="button"
+        aria-pressed="false"
+      >
+        ♫ Música: apagada
+      </button>
+
+    </footer>
+
+  </section>
+
+
+  <!-- =====================================
+       REPRODUCTOR DE MÚSICA NAVIDEÑA
+  ====================================== -->
+
+  <audio
+    id="backgroundMusic"
+    loop
+    preload="none"
+  >
+
+    <source
+      src="audio/navidad.mp3"
+      type="audio/mpeg"
+    >
+
+    Tu navegador no admite la reproducción de audio.
+
+  </audio>
+
+
+  <!-- =====================================
+       VENTANA DE LAS SORPRESAS
+  ====================================== -->
+
+  <dialog
+    id="surpriseDialog"
+    class="surprise-dialog"
+  >
+
+    <button
+      class="close"
+      id="closeDialog"
+      type="button"
+      aria-label="Cerrar ventana"
+    >
+      ×
+    </button>
+
+    <!-- AQUÍ APARECE EL CONTENIDO DE CADA PUERTA -->
+
+    <div id="surpriseContent"></div>
+
+  </dialog>
+
+
+  <!-- =====================================
+       ARCHIVO JAVASCRIPT
+  ====================================== -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

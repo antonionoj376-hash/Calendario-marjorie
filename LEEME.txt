@@ -1,0 +1,22 @@
+CALENDARIO PARA MARJORIE - PRIMERA BASE
+
+Archivos:
+- index.html: estructura de la página.
+- styles.css: diseño visual.
+- script.js: calendario, fechas y contenido provisional.
+- fotos/: las cinco fotografías enviadas, en el orden recibido.
+
+Para probar:
+1. Mantén juntos index.html, styles.css, script.js y la carpeta fotos.
+2. Abre index.html en un navegador.
+3. La página está preparada para diciembre de 2026 y utiliza la zona horaria America/Guatemala.
+4. Las puertas se desbloquean a partir de las 00:00 de cada fecha local de Guatemala.
+
+Pendiente para las siguientes etapas:
+- Revisar y personalizar las frases de las cinco fotografías.
+- Añadir las otras tres fotografías cuando las envíes.
+- Elegir y añadir el archivo de piano instrumental.
+- Escribir los mensajes personales, enlaces de Spotify y carta final de Navidad.
+- Publicar la página para obtener un enlace compartible.
+
+Nota: esta es una primera estructura de trabajo; todavía no está publicada.
